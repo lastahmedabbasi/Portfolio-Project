@@ -3,179 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ahmed Abbasi | AI Student Portfolio</title>
-  <meta name="description" content="Portfolio of Ahmed Abbasi, BS Artificial Intelligence student at FAST-NUCES Karachi.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Ahmed Abbasi - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAVIGATION: links jump to the section with the matching id -->
-<header class="nav">
-  <a href="#home" class="logo">Ahmed Abbasi</a>
-  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-  <nav id="navLinks">
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+  <!-- navigation bar -->
+  <nav>
+    <h3>Ahmed Abbasi</h3>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
-</header>
 
-<main>
-  <!-- HERO / INTRO -->
-  <section id="home" class="hero">
-    <div class="hero-text">
-      <p class="hello">Hi, I'm</p>
-      <h1>Ahmed Abbasi</h1>
-      <p class="role">I'm an <span id="typed"></span><span class="cursor">|</span></p>
-      <p class="lead">AI student at FAST-NUCES Karachi. I like turning small ideas into working programs, one line of code at a time.</p>
-      <div class="btns">
-        <a class="btn primary" href="#projects">See my projects</a>
-        <a class="btn ghost" href="#contact">Contact me</a>
-      </div>
-    </div>
-    <div class="photo-wrap">
-      <div class="glow"></div>
-      <img src="ahmed.png" alt="Ahmed" class="photo">
-    </div>
+  <!-- intro -->
+  <section id="home" class="intro">
+    <img src="ahmed.png" alt="Ahmed" width="200" height="200">
+    <h1>Ahmed Abbasi</h1>
+    <p class="sub">AI Student at FAST-NUCES Karachi</p>
+    <p>Hi! I'm a first semester AI student. I like programming and making small projects, and I'm trying to learn something new every day.</p>
   </section>
 
-  <!-- ABOUT -->
+  <!-- about -->
   <section id="about">
-    <h2>About me</h2>
-    <div class="about-grid">
-      <p>I'm Ahmed, a first-semester student in the BS Artificial Intelligence program at FAST-NUCES Karachi. I started with C and C++ to learn how programs really work, and then moved on to Python, SQL and web development. I enjoy solving problems step by step, whether it is a coding puzzle, a small game script or a web page.</p>
-      <ul class="facts">
-        <li><strong>Location</strong> Karachi, Pakistan</li>
-        <li><strong>Studying</strong> BS Artificial Intelligence</li>
-        <li><strong>Interests</strong> Problem solving, game scripting, web design</li>
-        <li><strong>Goal</strong> Build useful AI tools by 2030</li>
-      </ul>
-    </div>
+    <h2>About Me</h2>
+    <p>My name is Ahmed and I live in Karachi, Pakistan. I am studying BS Artificial Intelligence at FAST-NUCES. I started programming with C and C++ and then learned Python, SQL and some web development. I enjoy solving problems and I want to build useful AI tools in the future.</p>
   </section>
 
-  <!-- EDUCATION: timeline -->
+  <!-- education -->
   <section id="education">
     <h2>Education</h2>
-    <div class="timeline">
-      <article>
-        <time>2026 – 2030 (expected)</time>
-        <h3>BS Artificial Intelligence</h3>
-        <p>FAST-NUCES, Karachi. Currently in the 1st semester.</p>
-      </article>
-      <article>
-        <time>2024 – 2026</time>
-        <h3>Intermediate (ICS stream)</h3>
-        <p>International School of Pakistan. Completed in 2026.</p>
-      </article>
-      <article>
-        <time>Completed 2024</time>
-        <h3>Matriculation (FBISE)</h3>
-        <p>International School of Pakistan. Graduated in 2024.</p>
-      </article>
+    <div class="box">
+      <h3>BS Artificial Intelligence</h3>
+      <p>FAST-NUCES Karachi</p>
+      <p>2026 - 2030 (expected), currently in 1st semester</p>
+    </div>
+    <div class="box">
+      <h3>Intermediate (ICS)</h3>
+      <p>International School of Pakistan</p>
+      <p>Completed in 2026</p>
+    </div>
+    <div class="box">
+      <h3>Matric (FBISE)</h3>
+      <p>International School of Pakistan</p>
+      <p>Completed in 2024</p>
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
+  <!-- experience -->
   <section id="experience">
-    <h2>Experience and activities</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Peer Programming Tutor</h3>
-        <span class="meta">International School of Pakistan, 2025</span>
-        <p>Helped classmates understand loops, functions and arrays in C and C++ during free periods.</p>
-      </article>
-      <article class="card">
-        <h3>Competitive Programming Practice</h3>
-        <span class="meta">FAST-NUCES Karachi, 2026</span>
-        <p>Practise ICPC-style problems to improve logic, speed and clean problem breakdown.</p>
-      </article>
-      <article class="card">
-        <h3>School IT Volunteer</h3>
-        <span class="meta">International School of Pakistan, 2024 – 2026</span>
-        <p>Helped set up computer lab systems and simple networks for events and practicals.</p>
-      </article>
+    <h2>Experience</h2>
+    <div class="box">
+      <h3>Peer Programming Tutor</h3>
+      <p>International School of Pakistan, 2025</p>
+      <p>Helped classmates with loops, functions and arrays in C and C++.</p>
+    </div>
+    <div class="box">
+      <h3>Competitive Programming Practice</h3>
+      <p>FAST-NUCES Karachi, 2026</p>
+      <p>I practice ICPC style problems to get better at problem solving.</p>
+    </div>
+    <div class="box">
+      <h3>School IT Volunteer</h3>
+      <p>International School of Pakistan, 2024 - 2026</p>
+      <p>Helped set up computers and a simple network in the computer lab.</p>
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- projects -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="cards">
-      <article class="card">
-        <h3>Hotel Booking System</h3>
-        <p>A console program in C that books rooms, checks availability and prints a bill.</p>
-        <p class="tags">C &middot; Pointers &middot; Arrays</p>
-      </article>
-      <article class="card">
-        <h3>Student Result Manager</h3>
-        <p>A Python tool that stores marks in an SQL database and calculates grades and GPA.</p>
-        <p class="tags">Python &middot; SQL</p>
-      </article>
-      <article class="card">
-        <h3>Lua Coin Collector</h3>
-        <p>A small game script in Lua with a score counter, timer and moving obstacles.</p>
-        <p class="tags">Lua &middot; Game logic</p>
-      </article>
-      <article class="card">
-        <h3>Campus Network Design</h3>
-        <p>A two-lab network with a router, switches and IP addressing, simulated in Cisco Packet Tracer.</p>
-        <p class="tags">Networking &middot; Packet Tracer</p>
-      </article>
+    <div class="box">
+      <h3>Hotel Booking System</h3>
+      <p>A C program that books rooms, checks availability and prints a bill.</p>
+      <p><b>Used:</b> C, pointers, arrays</p>
+    </div>
+    <div class="box">
+      <h3>Student Result Manager</h3>
+      <p>A Python program that saves marks in a database and finds grades and GPA.</p>
+      <p><b>Used:</b> Python, SQL</p>
+    </div>
+    <div class="box">
+      <h3>Lua Coin Game</h3>
+      <p>A small game where you collect coins and avoid obstacles before time runs out.</p>
+      <p><b>Used:</b> Lua</p>
+    </div>
+    <div class="box">
+      <h3>Lab Network Design</h3>
+      <p>A network of two labs with a router and switches, made in Cisco Packet Tracer.</p>
+      <p><b>Used:</b> Cisco Packet Tracer</p>
     </div>
   </section>
 
-  <!-- SKILLS: bar widths come from data-level -->
+  <!-- skills -->
   <section id="skills">
     <h2>Skills</h2>
-    <div class="skills" id="skillList">
-      <div class="skill"><span>C</span><div class="bar"><i data-level="80"></i></div></div>
-      <div class="skill"><span>C++</span><div class="bar"><i data-level="70"></i></div></div>
-      <div class="skill"><span>Python</span><div class="bar"><i data-level="70"></i></div></div>
-      <div class="skill"><span>HTML and CSS</span><div class="bar"><i data-level="75"></i></div></div>
-      <div class="skill"><span>JavaScript</span><div class="bar"><i data-level="55"></i></div></div>
-      <div class="skill"><span>SQL</span><div class="bar"><i data-level="60"></i></div></div>
-      <div class="skill"><span>Lua</span><div class="bar"><i data-level="50"></i></div></div>
-      <div class="skill"><span>NumPy</span><div class="bar"><i data-level="55"></i></div></div>
-      <div class="skill"><span>PyTorch</span><div class="bar"><i data-level="40"></i></div></div>
-      <div class="skill"><span>Raylib</span><div class="bar"><i data-level="45"></i></div></div>
-      <div class="skill"><span>MS 365</span><div class="bar"><i data-level="85"></i></div></div>
-      <div class="skill"><span>Cisco Packet Tracer</span><div class="bar"><i data-level="60"></i></div></div>
-    </div>
-    <p class="soft">Also: problem solving, teamwork, clear communication, learning fast.</p>
+    <ul>
+      <li>C</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>Lua</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>SQL</li>
+      <li>NumPy</li>
+      <li>PyTorch</li>
+      <li>Raylib</li>
+      <li>MS 365</li>
+      <li>Cisco Packet Tracer</li>
+    </ul>
+    <p>Other: problem solving, teamwork, communication</p>
   </section>
 
-  <!-- CONTACT: form opens the visitor's email app -->
+  <!-- contact -->
   <section id="contact">
     <h2>Contact</h2>
-    <div class="contact-grid">
-      <ul class="facts">
-        <li><strong>Email</strong> <a href="mailto:ahmedabbasiyt@gmail.com">ahmedabbasiyt@gmail.com</a></li>
-        <li><strong>GitHub</strong> <a href="https://github.com/lastahmedabbasi">github.com/lastahmedabbasi</a></li>
-        <li><strong>LinkedIn</strong> <a href="https://linkedin.com/in/your-username">linkedin.com/in/your-username</a></li>
-        <li><strong>Phone</strong> +92 300 0000000</li>
-      </ul>
-      <form id="contactForm" novalidate>
-        <label for="name">Name</label>
-        <input id="name" type="text" placeholder="Your name" required>
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="you@example.com" required>
-        <label for="message">Message</label>
-        <textarea id="message" rows="4" placeholder="How can I help?" required></textarea>
-        <p class="error" id="formError" role="alert"></p>
-        <button class="btn primary" type="submit">Send message</button>
-      </form>
-    </div>
+    <p>Email: <a href="mailto:ahmedabbasiyt@gmail.com">ahmedabbasiyt@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/lastahmedabbasi">github.com/lastahmedabbasi</a></p>
+
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <label for="email">Email:</label>
+      <input type="text" id="email">
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5"></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
-</main>
 
-<footer>&copy; 2026 Ahmed Abbasi. Built with HTML, CSS and JavaScript.</footer>
+  <footer>
+    <p>Made by Ahmed Abbasi, 2026</p>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
