@@ -15,8 +15,8 @@ a {
  
 /* navigation */
 nav {
-  background: linear-gradient(to right, #1a1a1a, #3a0070); 
-  padding: 10px 20px;
+  background: rgb(24, 2, 24); 
+  padding: 18px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,15 +24,18 @@ nav {
 }
 
 nav h3 {
+  font-size: 22px;
   margin: 0;
   color: purple;
 }
 
 .links a {
+  font-size: 18px;
   margin-left: 15px;
   text-decoration: none;
   color: white;
 }
+
 
 .links a:hover {
   color: #b57bff;
